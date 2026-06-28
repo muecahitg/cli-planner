@@ -11,7 +11,7 @@ A lightweight command-line planner written in C, using SQLite for local data sto
 
 ## Requirements
 
-- GCC
+- CLANG/GCC
 - SQLite3
 
 ```bash
@@ -53,4 +53,4 @@ Events are stored locally in `planner.db` in the same directory as the binary. T
 
 ## Todo
 
-- improve ui
+- improve ui (e.g. add colors)
