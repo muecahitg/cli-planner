@@ -53,4 +53,4 @@ Events are stored locally in `planner.db` in the same directory as the binary. T
 
 ## Todo
 
-- improve ui (e.g. add colors)
+- improve ui (e.g. add colors, daily/weekly/monthly view)
