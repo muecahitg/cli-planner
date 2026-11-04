@@ -77,7 +77,7 @@ void view(sqlite3 *db, char *filter){
     int found = 0;
     while(sqlite3_step(stmt) == SQLITE_ROW){
         found = 1;
-        printf(" %d  | %-30s\t | %10s\n",
+        printf(" %4d  | %-30s\t | %10s\n",
                 sqlite3_column_int(stmt, 0),
                (const char *)sqlite3_column_text(stmt, 1),
                (const char *)sqlite3_column_text(stmt, 2));
